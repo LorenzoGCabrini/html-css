@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:  'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Oswald';
+    src: url(fontes/Oswald-VariableFont_wght.ttf) format('truetype');
+}
+
+header {
+    height: 200px;
+    width: auto;
+    background-image: linear-gradient(#3CD781,#195935);
+    margin-top: -22px;
+    margin-left: -8px;
+    margin-right: -7px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.267);
+}
+header > h1 {
+    color: white;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-weight: normal;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.224);
+}
+header > p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    width: 870.4;
+    height: 2347.18px;
+    padding-left: 308px;
+    padding-right: 307px;
+    margin-top: -22px;
+    margin-right: -7px;
+    margin-left: -8px;
+    background-color: #84E1AD; 
+}
+section#assunto_principal {
+    background-color: white;
+    height: 2327.18;
+    width: 870.4;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 7px 7px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.194), -4px 0px 6px rgba(0, 0, 0, 0.194);
+}
+article > h1 {
+    font-family: 'idroid', times, serif;
+    color: #3D7556;
+}
+article > h2 {
+    font-family: 'idroid', times, serif;
+    padding-left: 15px;
+    color: #419f6b;
+    background-image: linear-gradient(to right, #C4EBD5, white);
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+
+}
+header > h1 {
+    text-align: center;
+    padding-top: 30px;
+    
+}
+header > p {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 550px;
+    padding-right: 550px;
+}
+nav.links_menu {
+    padding-top: 10px;
+}
+nav.links_menu > a {
+    margin-left: 13px;
+    text-decoration: none;
+    color: white;
+}
+nav.links_menu > a:hover {
+    color: black;
+}
+article#assunto_1  > h1{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+p.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+img.imagens {
+    width: 700px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+img#imagem {
+    height: 195px;
+    width: 300px;
+    padding: 0px 250px;
+}
+aside.video {
+    background-color: #1A5C38;
+    height: 430px;
+    width: 870.4px;
+}
+iframe.video {
+    width: 770px;
+    height: 370px;
+    padding-left: 53.75px;
+    padding-right: 53.75px;
+    padding-top: 30px;
+}
+article.aprender_mais {
+    width: 820px;
+    background-color: #C5EBD6;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.226);
+}
+article.aprender_mais > h3 {
+    background-color: #2FA866;
+    color: white;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'oswald', times, serif;
+    font-weight: bold;
+    border-radius: 7px 7px 0px 0px;
+}
+.listas {
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+footer {
+    text-align: center;
+    margin-top: -18px;
+    margin-bottom: -16px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: #1A5C38;
+    color: white;
+}
